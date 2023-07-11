@@ -94,26 +94,17 @@ p {
 
 /* header starts */
 .banner-container {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     background: rgba(229, 84, 115, 0.10);
-    padding: 7%;
-
+    padding: 0 15px;
+    max-width: 1430px;
+    margin: 0 auto;
 }
 
 .banner-container .btn {
     margin-top: 35px;
 }
-
-.banner-left {
-    /* width: 50%; */
-}
-
-.banner-right {
-    /* width: 50%; */
-}
-
 .banner-img {
     width: 635px;
     height: 800px;
@@ -123,7 +114,9 @@ p {
 
 /* feature starts */
 .feature-container {
-    margin-top: 120px;
+    max-width: 1430px;
+    margin: 120px auto 0;
+    padding: 0 15px;
 }
 
 .feature-head {
@@ -139,7 +132,6 @@ p {
 .flower-tree {
     display: flex;
     justify-content: space-between;
-    padding: 0 7%;
 }
 
 
@@ -175,10 +167,11 @@ p {
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 1290px;
     height: 320px;
     flex-shrink: 0;
     margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1430px;
 }
 
 
@@ -304,11 +297,6 @@ img.insta-img:last-child {
     margin-top: 120px;
 
 }
-
-.footer-text {
-    
-}
-
 .footer-text h6 {
     color: rgba(255, 255, 255, 0.90);
     font-family: Lato;
