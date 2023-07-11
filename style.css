@@ -92,7 +92,7 @@ p {
 }
 
 
-/* header starts */
+/* header styles */
 header.banner-area {
     background: rgba(229, 84, 115, 0.10);
 }
@@ -116,11 +116,11 @@ header.banner-area {
 
 }
 
-/* feature starts */
+/* feature styles */
 .feature-container {
     max-width: 1440px;
     margin: 120px auto 0;
-    
+
 }
 
 .feature-head {
@@ -160,17 +160,14 @@ header.banner-area {
 }
 
 .pink-flower {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
 .red-flower {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .yellow-flower {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
 
@@ -269,7 +266,6 @@ img.insta-img:last-child {
 }
 
 /* deals styles */
-
 .deals {
     max-width: 1250px;
     height: 449px;
@@ -292,6 +288,7 @@ img.insta-img:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 20px;
     margin-top: 48px;
 
@@ -307,7 +304,7 @@ img.insta-img:last-child {
 }
 
 
-/* footer style */
+/* footer styles */
 .footer {
     text-align: center;
     height: 449px;
