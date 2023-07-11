@@ -93,9 +93,10 @@ p {
 
 
 /* header starts */
-header.banner-area{
+header.banner-area {
     background: rgba(229, 84, 115, 0.10);
 }
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@ header.banner-area{
 .banner-container .btn {
     margin-top: 35px;
 }
+
 .banner-img {
     width: 635px;
     height: 800px;
@@ -116,9 +118,9 @@ header.banner-area{
 
 /* feature starts */
 .feature-container {
-    max-width: 1430px;
+    max-width: 1440px;
     margin: 120px auto 0;
-    padding: 0 15px;
+    
 }
 
 .feature-head {
@@ -145,7 +147,6 @@ header.banner-area{
 }
 
 .single-tree-item .single-flower {
-    background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0 0;
     margin-bottom: 32px;
     height: 535px;
@@ -156,6 +157,21 @@ header.banner-area{
 
 .single-tree-item.second .single-flower {
     align-items: center;
+}
+
+.pink-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.red-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
 
 /* delivery styles */
@@ -218,7 +234,7 @@ header.banner-area{
 
 /* instagram styles */
 .instagram {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 92px;
     margin-bottom: 130px;
@@ -247,6 +263,7 @@ header.banner-area{
     flex-shrink: 0;
     margin-right: 20px;
 }
+
 img.insta-img:last-child {
     margin-right: 0;
 }
@@ -299,6 +316,7 @@ img.insta-img:last-child {
     margin-top: 120px;
 
 }
+
 .footer-text h6 {
     color: rgba(255, 255, 255, 0.90);
     font-family: Lato;
@@ -308,13 +326,14 @@ img.insta-img:last-child {
     line-height: 30px;
 }
 
-.footer-text h2{
+.footer-text h2 {
     margin-bottom: 15px;
 }
 
-.footer-text p{
+.footer-text p {
     margin-top: 25px;
 }
+
 .footer-text p {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
