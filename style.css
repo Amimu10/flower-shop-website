@@ -93,10 +93,12 @@ p {
 
 
 /* header starts */
+header.banner-area{
+    background: rgba(229, 84, 115, 0.10);
+}
 .banner-container {
     display: flex;
     align-items: center;
-    background: rgba(229, 84, 115, 0.10);
     padding: 0 15px;
     max-width: 1430px;
     margin: 0 auto;
